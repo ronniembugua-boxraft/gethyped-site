@@ -1,0 +1,9 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "title": "Foundations", "x": 0, "y": 0, "w": 1200, "h": 1620 },
+    { "file": "Components.dc.html", "title": "Buttons & badges", "x": 1320, "y": 0, "w": 1200, "h": 1180 },
+    { "file": "Grid.dc.html", "title": "Grid, space & motion", "x": 1320, "y": 1300, "w": 1200, "h": 1120 },
+    { "file": "Cards.dc.html", "title": "Cards & blocks", "x": 0, "y": 1740, "w": 1200, "h": 1560 }
+  ],
+  "launch": { "view": "canvas" }
+}

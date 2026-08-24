@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+# TypeScript incremental build output
+*.tsbuildinfo
+
+# Unrelated file that landed in public/ — not part of this site.
+# Anything in public/ is copied verbatim into the production build.
+public/tracker-preview.html

@@ -1,0 +1,86 @@
+/* ---------------------------------------------------------------
+   GetHyped design tokens
+   Compiled from the design system canvas (design/*.dc.html).
+   Change a value here, not in a component.
+   --------------------------------------------------------------- */
+
+:root {
+  /* Brand ------------------------------------------------------- */
+  --gh-blue: #1668f0;
+  --gh-pink: #f9a8e5;
+  --gh-green: #57de9b;
+  --gh-orange: #ff5a1e;
+
+  /* Neutrals — every one leans warm, never grey ----------------- */
+  --gh-ink: #101010;
+  --gh-ink-80: #3a3a36;
+  --gh-muted: #6b6b66;
+  --gh-sand: #cfc6b6;
+  --gh-paper: #f3f0ea;
+  --gh-card: #ffffff;
+  --gh-line: #e4e0d7;
+  --gh-line-strong: #d6d1c6;
+  --gh-hairline: #efebe2;
+
+  /* Type -------------------------------------------------------- */
+  --gh-font-display: 'Archivo', 'Helvetica Neue', Helvetica, sans-serif;
+  --gh-font-text: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif;
+
+  --gh-display-xl: clamp(2.75rem, 6.4vw, 4.75rem); /* 44 → 76 */
+  --gh-display-l: clamp(2.25rem, 4.6vw, 3.5rem); /*  36 → 56 */
+  --gh-display-m: clamp(1.875rem, 3.4vw, 2.5rem); /* 30 → 40 */
+  --gh-heading: clamp(1.375rem, 2.2vw, 1.625rem); /* 22 → 26 */
+  --gh-lead: 1.125rem; /* 18 */
+  --gh-body: 0.9375rem; /* 15 */
+  --gh-body-s: 0.875rem; /* 14 */
+  --gh-caption: 0.8125rem; /* 13 */
+  --gh-label: 0.6875rem; /* 11 */
+
+  --gh-track-xl: -0.038em;
+  --gh-track-l: -0.032em;
+  --gh-track-m: -0.028em;
+  --gh-track-s: -0.02em;
+
+  /* Space — 4px base, doubling after 16 ------------------------- */
+  --gh-space-1: 4px;
+  --gh-space-2: 8px;
+  --gh-space-3: 12px;
+  --gh-space-4: 16px;
+  --gh-space-6: 24px;
+  --gh-space-8: 32px;
+  --gh-space-12: 48px;
+  --gh-space-16: 64px;
+  --gh-space-24: 96px;
+  --gh-space-30: 120px;
+
+  /* Radius — soft, never sharp --------------------------------- */
+  --gh-radius-control: 8px;
+  --gh-radius-chip: 6px;
+  --gh-radius-media: 16px;
+  --gh-radius-card: 20px;
+  --gh-radius-block: 24px;
+  --gh-radius-circle: 999px;
+
+  /* Layout ------------------------------------------------------ */
+  --gh-container: 1320px;
+  --gh-gutter: 16px;
+  --gh-margin: 20px;
+
+  /* Motion — quick and springy, never floaty ------------------- */
+  --gh-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --gh-fast: 160ms;
+  --gh-mid: 280ms;
+  --gh-slow: 600ms;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --gh-margin: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --gh-margin: 48px;
+  }
+}
