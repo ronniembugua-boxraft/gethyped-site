@@ -1,0 +1,4 @@
+# Preview deploy — content is draft and the case-study figures are placeholders.
+# Delete this file when the real site launches.
+User-agent: *
+Disallow: /
